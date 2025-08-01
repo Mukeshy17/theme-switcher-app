@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+/* index.css or a new theme.css you import */
+.theme1 {
+  @apply bg-white text-gray-900 font-sans;
+}
+
+.theme2 {
+  @apply bg-gray-900 text-white font-serif;
+}
+
+.theme3 {
+  @apply bg-gradient-to-r from-pink-200 via-yellow-100 to-green-200 text-gray-800;
+}
+
+.theme2 .main-content {
+  @apply flex flex-col md:flex-row;
+}
+
+.theme2 .sidebar {
+  @apply w-full md:w-1/4 bg-gray-800 text-white p-4;
+}
+
+.theme2 .content-area {
+  @apply w-full md:w-3/4 p-4;
+}
+
+.theme3 .card {
+  @apply rounded-xl shadow-lg p-6 transition-transform duration-300 hover:scale-105 bg-white;
+}
+
+.theme-switch-transition {
+  @apply transition-all duration-500 ease-in-out;
+}
