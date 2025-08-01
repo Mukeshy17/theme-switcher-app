@@ -9,6 +9,8 @@ type Product = {
   image: string;
 };
 
+// Card component to display product information
+// Accepts a product prop of type Product
 type CardProps = {
   product: Product;
 };

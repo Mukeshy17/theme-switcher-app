@@ -1,6 +1,10 @@
 import React from 'react';
 import { useTheme } from '../context/ThemeContext';
 
+/**
+ * Header component.
+ * Displays the app title and theme switcher.
+ */
 const Header: React.FC = () => {
   const { theme, setTheme } = useTheme();
 

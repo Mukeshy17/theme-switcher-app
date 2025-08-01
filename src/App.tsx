@@ -5,6 +5,11 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Header from './components/Header';
 
+
+/**
+ * Main application component.
+ * Wraps the app with ThemeProvider and sets up routing.
+ */
 const App = () => (
   <ThemeProvider>
     <Router>
